@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface StreamPlayerProps {
@@ -19,8 +18,8 @@ const StreamPlayer: React.FC<StreamPlayerProps> = ({ isDark = true }) => {
         <div className="stream-container">
           <iframe 
             src={streamUrl} 
+            allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
             allowFullScreen 
-            allow="autoplay; encrypted-media"
             title="TV Galega Live Stream"
             className="w-full h-full"
           ></iframe>

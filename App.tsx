@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import StreamPlayer from './components/StreamPlayer';
 import { Tv, Moon, Sun } from 'lucide-react';
@@ -24,7 +23,7 @@ const App: React.FC = () => {
       <header className="p-6 flex items-center justify-between max-w-6xl mx-auto w-full">
         <div className="flex items-center gap-3">
           <Tv className={`${isDark ? 'text-blue-500' : 'text-blue-600'} w-8 h-8`} />
-          <h1 className="text-2xl font-bold tracking-tight uppercase">
+          <h1 className="text-xl md:text-2xl font-bold tracking-tight uppercase">
             TV Galega <span className={`font-light ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>Ao Vivo</span>
           </h1>
         </div>
