@@ -1,8 +1,5 @@
 {
-  "name": "TV Galega APP",
-  "description": "TV Galega Ao Vivo Mobile",
-  "requestFramePermissions": [
-    "camera",
-    "microphone"
-  ]
+  "name": "TV Galega Digital",
+  "description": "Aplicativo oficial de streaming ao vivo da TV Galega.",
+  "requestFramePermissions": []
 }
