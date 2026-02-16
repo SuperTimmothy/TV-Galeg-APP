@@ -1,0 +1,8 @@
+{
+  "name": "TV Galega APP",
+  "description": "TV Galega Ao Vivo Mobile",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
