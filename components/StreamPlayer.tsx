@@ -34,7 +34,7 @@ const StreamPlayer: React.FC<StreamPlayerProps> = ({ isDark = true }) => {
            <div className={`h-1.5 w-1.5 rounded-full ${isDark ? 'bg-blue-400' : 'bg-blue-600'} opacity-25`}></div>
         </div>
         <h2 className={`text-[10px] font-bold tracking-[0.4em] uppercase transition-colors duration-500 ${isDark ? 'text-slate-500' : 'text-slate-400'}`}>
-          Emissão Digital de Alta Qualidade
+          A IMAGEM DA CIDADE
         </h2>
       </div>
     </div>

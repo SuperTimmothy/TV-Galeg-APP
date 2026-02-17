@@ -52,7 +52,7 @@ const App: React.FC = () => {
       <footer className="p-8 text-center">
         <div className={`h-px w-24 mx-auto mb-6 transition-colors duration-500 ${isDark ? 'bg-slate-800' : 'bg-slate-200'}`}></div>
         <p className={`${isDark ? 'text-slate-600' : 'text-slate-400'} text-xs font-medium uppercase tracking-[0.2em]`}>
-          &copy; {new Date().getFullYear()} TV Galega Digital • Santiago de Compostela
+          TV GALEGA SC DIGITAL - BLUMENAU - SC
         </p>
       </footer>
     </div>
